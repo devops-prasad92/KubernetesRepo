@@ -97,8 +97,6 @@ systemctl restart kubelet
 
 systemctl daemon-reload
 
-
-
 # Initialising the control-plane node run the below command on the (master node)
 sudo kubeadm init
 
